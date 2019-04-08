@@ -7,8 +7,7 @@ Initial measurements acquired:
 | --- | --- | --- | --- | --- |
 | 1 | 366 | 8 | 81567 | 11.972 |  
 | 2 | 362 | 34 | 81901 | 11.428 |
-| 3 | 352 | - | - | - |
-| 4 | - | - | - | - |
+
 
 To test the hypothesis need to acquire from this the predicted distance travelled and the distance travelled according to the odometer
 | Trial | MTE distance | Odometer distance |
