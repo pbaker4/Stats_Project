@@ -18,7 +18,7 @@ Initial measurements acquired:
 | 3 | 352 | - | - | 
 | 4 | - | - | - | 
 
-Another data set will be added for the final report. Due to the nature of the experiments, only three trials could be obtained up til this point. The following calculations will then be updated as well to reflect another set of data.
+
 
 To test the hypothesis I need to acquire from this the predicted distance travelled and the distance travelled according to the odometer
 
@@ -28,7 +28,6 @@ To test the hypothesis I need to acquire from this the predicted distance travel
 | 2 | 362-34=328 | 81901-81567=334 |
 | 3 | - | - |
 | 4 | - | - |
-
 Using this data I can calcuate my two sample means and sample variances.
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Coverline%7Bx_1%7D%3D%5Cfrac%7B358&plus;328&plus;n3%7D%7B3%7D%3D)
