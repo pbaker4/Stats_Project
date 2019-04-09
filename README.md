@@ -29,7 +29,7 @@ To test the hypothesis I need to acquire from this the predicted distance travel
 | 3 | - | - |
 | 4 | - | - |
 
-Using this data I can calcuate my two sample means and sample variances (use LaTeX).
+Using this data I can calcuate my two sample means and sample variances.
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Coverline%7Bx_1%7D%3D%5Cfrac%7B358&plus;328&plus;n3%7D%7B3%7D%3D)
 
@@ -37,8 +37,21 @@ Using this data I can calcuate my two sample means and sample variances (use LaT
 
 
 
+I now have all of the information I need to find the T value
+
 ![first eq](https://latex.codecogs.com/gif.latex?T%3D%5Cfrac%7B%28%5Coverline%7Bx_%7B1%7D%7D-%5Coverline%7Bx_%7B2%7D%7D%29-%28%5Cmu_1-%5Cmu_2%29%7D%7B%5Csqrt%7Bs_%7B1%7D%5E%7B2%7D/n_1&plus;s_%7B2%7D%5E%7B2%7D/n_2%7D%7D)
 
 I am testing whether the population means equal each other, so the equation becomes
 
 ![second eq](https://latex.codecogs.com/gif.latex?T%3D%5Cfrac%7B%28%5Coverline%7Bx_%7B1%7D%7D-%5Coverline%7Bx_%7B2%7D%7D%29%7D%7B%5Csqrt%7Bs_%7B1%7D%5E%7B2%7D/n_1&plus;s_%7B2%7D%5E%7B2%7D/n_2%7D%7D)
+
+The formula for degree of freedom is 
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7B%28%5Cfrac%7Bs_%7B1%7D%5E%7B2%7D%7D%7Bn_1%7D&plus;%5Cfrac%7Bs_%7B2%7D%5E%7B2%7D%7D%7Bn_2%7D%29%5E%7B2%7D%7D%7B%5Cfrac%7B%28%5Cfrac%7Bs_%7B1%7D%5E%7B2%7D%7D%7Bn_1%7D%29%5E%7B2%7D%7D%7Bn_%7B1%7D-1%7D&plus;%5Cfrac%7B%28%5Cfrac%7Bs_%7B2%7D%5E%7B2%7D%7D%7Bn_2%7D%29%5E%7B2%7D%7D%7Bn_%7B2%7D-1%7D%7D)
+
+Thus
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7B%28%5Cfrac%7Bs_%7B1%7D%5E%7B2%7D%7D%7Bn_1%7D&plus;%5Cfrac%7Bs_%7B2%7D%5E%7B2%7D%7D%7Bn_2%7D%29%5E%7B2%7D%7D%7B%5Cfrac%7B%28%5Cfrac%7Bs_%7B1%7D%5E%7B2%7D%7D%7Bn_1%7D%29%5E%7B2%7D%7D%7Bn_%7B1%7D-1%7D&plus;%5Cfrac%7B%28%5Cfrac%7Bs_%7B2%7D%5E%7B2%7D%7D%7Bn_2%7D%29%5E%7B2%7D%7D%7Bn_%7B2%7D-1%7D%7D)
+
+
+code for dof is \frac{(\frac{s_{1}^{2}}{n_1}+\frac{s_{2}^{2}}{n_2})^{2}}{\frac{(\frac{s_{1}^{2}}{n_1})^{2}}{n_{1}-1}+\frac{(\frac{s_{2}^{2}}{n_2})^{2}}{n_{2}-1}}
