@@ -34,7 +34,7 @@ Using this data I can calcuate my two sample means and sample variances.
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Coverline%7Bx_2%7D%3D%5Cfrac%7B330&plus;334&plus;n3%7D%7B3%7D%3D)
 
-
+LaTeX codes are \overline{x_{1}}=\frac{358+328+n3+n4}{4} for mean and s_{1}^{2}=\frac{1}{4-1}\cdot {((358-\overline{x}))+((328-xbar))} for variance 
 
 I now have all of the information I need to find the T value
 
