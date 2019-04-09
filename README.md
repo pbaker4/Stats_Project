@@ -1,4 +1,4 @@
-# Preston_Baker_Stats_Project
+# Preston Baker MAE 301 Project
 ### Executive Summary
 
 ### Introduction
@@ -17,6 +17,8 @@ Initial measurements acquired:
 | 2 | 362 | 34 | 81901 |
 | 3 | 352 | - | - | 
 | 4 | - | - | - | 
+
+Another data set will be added for the final report. Due to the nature of the experiments, only three trials could be obtained up til this point. The following calculations will then be updated as well to reflect another set of data.
 
 To test the hypothesis I need to acquire from this the predicted distance travelled and the distance travelled according to the odometer
 
