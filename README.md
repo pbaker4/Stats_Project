@@ -15,8 +15,8 @@ Initial measurements acquired:
 | --- | --- | --- | --- |
 | 1 | 366 | 8 | 81567 |
 | 2 | 362 | 34 | 81901 |
-| 3 | 352 | - | - | 
-| 4 | - | - | - | 
+| 3 | 352 | 45 | 82222 | 
+| 4 | 360 | 22 | 82550 | 
 
 
 
@@ -26,16 +26,18 @@ To test the hypothesis I need to acquire from this the predicted distance travel
 | --- | --- | --- |
 | 1 | 366-8=358 | 81567-81237=330 |
 | 2 | 362-34=328 | 81901-81567=334 |
-| 3 | - | - |
-| 4 | - | - |
+| 3 | 352-45=307 | 82222-81901=321 |
+| 4 | 360-22=338 | 82550-82222=328 |
 
 Using this data I can calcuate my two sample means and sample variances.
 
-![equation](https://latex.codecogs.com/gif.latex?%5Coverline%7Bx_1%7D%3D%5Cfrac%7B358&plus;328&plus;n3%7D%7B3%7D%3D)
+![equation](https://latex.codecogs.com/gif.latex?%5Coverline%7Bx_%7B1%7D%7D%3D%5Cfrac%7B358&plus;328&plus;307&plus;338%7D%7B4%7D%3D332.75)
 
-![equation](https://latex.codecogs.com/gif.latex?%5Coverline%7Bx_2%7D%3D%5Cfrac%7B330&plus;334&plus;n3%7D%7B3%7D%3D)
+![equation](https://latex.codecogs.com/gif.latex?%5Coverline%7Bx_%7B2%7D%7D%3D%5Cfrac%7B330&plus;334&plus;321&plus;328%7D%7B4%7D%3D328.25)
 
-LaTeX codes are \overline{x_{1}}=\frac{358+328+n3+n4}{4} for mean and s_{1}^{2}=\frac{1}{4-1}\cdot {((358-\overline{x}))+((328-xbar))} for variance 
+![equation](https://latex.codecogs.com/gif.latex?s_%7B1%7D%5E%7B2%7D%3D%5Cfrac%7B%28%28358-332.75%29%5E%7B2%7D&plus;%28328-332.75%29%5E%7B2%7D&plus;%28307-332.75%29%5E%7B2%7D&plus;%28338-332.75%29%5E%7B2%7D%29%7D%7B3%7D%3D450.25)
+
+![equation](https://latex.codecogs.com/gif.latex?s_%7B2%7D%5E%7B2%7D%3D%5Cfrac%7B%28%28330-328.25%29%5E%7B2%7D&plus;%28334-328.25%29%5E%7B2%7D&plus;%28321-328.25%29%5E%7B2%7D&plus;%28328-328.25%29%5E%7B2%7D%29%7D%7B3%7D%3D28.5833)
 
 I now have all of the information I need to find the T value
 
