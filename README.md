@@ -28,6 +28,7 @@ To test the hypothesis I need to acquire from this the predicted distance travel
 | 2 | 362-34=328 | 81901-81567=334 |
 | 3 | - | - |
 | 4 | - | - |
+
 Using this data I can calcuate my two sample means and sample variances.
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Coverline%7Bx_1%7D%3D%5Cfrac%7B358&plus;328&plus;n3%7D%7B3%7D%3D)
