@@ -8,7 +8,9 @@
 
 ### Procedures and Results
 Car Fueling Data
+
 Starting odometer reading: 81237
+
 Initial measurements acquired:
 
 | Trial | Miles to E Start | Miles to E End | Odometer Reading |
