@@ -61,4 +61,4 @@ Thus
 
 ![equation](https://latex.codecogs.com/gif.latex?dof%3D%5Cfrac%7B%28%5Cfrac%7B450.25%7D%7B4%7D&plus;%5Cfrac%7B28.5833%7D%7B4%7D%29%5E%7B2%7D%7D%7B%5Cfrac%7B%28%5Cfrac%7B450.25%7D%7B4%7D%29%5E%7B2%7D%7D%7B3%7D&plus;%5Cfrac%7B%28%5Cfrac%7B28.5833%7D%7B4%7D%29%5E%7B2%7D%7D%7B3%7D%7D%3D%5B3.38%5D%3D3)
 
-
+I will use ![equation](https://latex.codecogs.com/gif.latex?%5Calpha) = 0.05, as is typically standard, meaning I have 95% confidence that my conclusion in regards to the null hypothesis will be accurate.
