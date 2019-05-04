@@ -84,4 +84,12 @@ This yields 0.3542
 
 My previously found T value of .41129 is inside of the bounds (-3.1824, 3.1824). This indicates that there is not enough evidence to reject the null hypothesis. In addition, the p-value is very high, at 0.3542. This means there is a probability of 0.3542, or 35.42% chance that I would be incorrect if I rejected the null hypothesis (www.dummies.com). Thus, I cannot reject the null hypothesis that the MTE display matches with the distance travelled according to the odometer. Due to that conclusion, it can not be said that factors affecting fuel consumption significantly change the car's distance travelled. However, it does not mean that these factors are certainly negligible, just that they cannot be proven to not be (statistics.laerd.com). 
 
-  Looking back on the experiment, I wish I had started testing earlier so that I could have obtained more samples.   
+### Conclusion
+
+ Looking back on the experiment, I wish I had started testing earlier so that I could have obtained more samples. A T-test assumes normal distribution and does not need a large sample size, yet it still would have been preferrable to have more data. An alternative way to get more samples would have been to collect the data multiple times while driving, such as every fifty miles, not just every time I refilled the tank. In addition, It is important to note that these tests were done on my car, a 2012 Ford Focus, over a relatively short period of time in relatively average temperatures. This test does not necessarily mean the same conclusions would be drawn with a different car model or with samples being drawn over a longer period, meaning temperature may become a bigger factor. With all of this in mind, the data obtained was sufficient to conclude that the null hypothesis could not be rejected. While it is clear to see when looking at each sample that they are not exact matches, with some trials having samples more close to being identical than others, I can not assuredly say they are significantly different.     
+
+### References
+1. “Many Factors Affect Fuel Economy.” Www.fueleconomy.gov - the Official Government Source for Fuel Economy Information, www.fueleconomy.gov/feg/factors.shtml.
+2. “Alpha Level (Significance Level): What Is It?” Statistics How To, 16 June 2018, www.statisticshowto.datasciencecentral.com/what-is-an-alpha-level/.
+3. “What a p-Value Tells You about Statistical Data.” Dummies, www.dummies.com/education/math/statistics/what-a-p-value-tells-you-about-statistical-data/.
+4. “Hypothesis Testing (Cont...).” Hypothesis Testing - Significance Levels and Rejecting or Accepting the Null Hypothesis, statistics.laerd.com/statistical-guides/hypothesis-testing-3.php.
