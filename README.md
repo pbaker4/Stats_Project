@@ -62,3 +62,22 @@ Thus
 ![equation](https://latex.codecogs.com/gif.latex?dof%3D%5Cfrac%7B%28%5Cfrac%7B450.25%7D%7B4%7D&plus;%5Cfrac%7B28.5833%7D%7B4%7D%29%5E%7B2%7D%7D%7B%5Cfrac%7B%28%5Cfrac%7B450.25%7D%7B4%7D%29%5E%7B2%7D%7D%7B3%7D&plus;%5Cfrac%7B%28%5Cfrac%7B28.5833%7D%7B4%7D%29%5E%7B2%7D%7D%7B3%7D%7D%3D%5B3.38%5D%3D3)
 
 I will use ![equation](https://latex.codecogs.com/gif.latex?%5Calpha) = 0.05, as is typically standard, meaning I have 95% confidence that my conclusion in regards to the null hypothesis will be accurate.
+
+The following lines are coded into python to find both the T score and the p-value:
+
+```
+from scipy.stats import t
+print(t.ppf(.025, 3))
+print(t.ppf(.975, 3))
+```
+
+This yields -3.1824 and 3.1824
+
+```
+T = .41129  # input the value of t-statistic already found along with the degree of freedom
+dof = 3  # degree of freedom 
+p = 1 - t.cdf(T,df=dof)  # p-value
+print(p)
+```
+
+This yields 0.3542
